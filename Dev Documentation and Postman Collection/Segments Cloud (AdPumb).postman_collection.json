@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "0bb18736-64f1-4fb9-b3e5-142894f4e393",
+		"name": "Segments Cloud (AdPumb)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40978106"
+	},
+	"item": [
+		{
+			"name": "Proxy Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"http://httpforever.com/\",\r\n    \"method\": \"POST\",\r\n    \"headers\": {}\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/proxy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proxy"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
